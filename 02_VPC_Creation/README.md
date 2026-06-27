@@ -6,11 +6,11 @@ Navigate to AWS Console → VPC → Create VPC.
 
 Select **VPC and More** and enter a name for the VPC.
 
-![VPC and More](images/vpc-and-more.png)
+![alt text](image-1.png)
 
 Specify the IPv4 CIDR Block. This CIDR range determines the number of private IP addresses available within the VPC.
 
-![CIDR Block Configuration](images/cidr-block.png)
+![alt text](image-2.png)
 
 ## Network Configuration
 
@@ -26,11 +26,11 @@ Specify the IPv4 CIDR Block. This CIDR range determines the number of private IP
 - **Public Subnets** host internet-facing resources such as Load Balancers and Bastion Hosts.
 - **Private Subnets** host application and database servers that should not be directly accessible from the internet.
 
-![Subnet Configuration](images/subnet-configuration.png)
+![alt text](image-3.png)
 
 Configure NAT Gateway (1 per Availability Zone).
 
-![NAT Gateway Configuration](images/nat-gateway.png)
+![alt text](image-4.png)
 
 ## Role of NAT Gateway
 
@@ -44,11 +44,11 @@ Common use cases include:
 
 Review the configuration and click **Create VPC**.
 
-![Create VPC Review](images/create-vpc-review.png)
+![alt text](image-5.png)
 
 After successful creation, preview the architecture of the VPC from the **Resource Map** which provides a graphical view of the VPC architecture.
 
-![VPC Resource Map](images/resource-map.png)
+![alt text](image-6.png)
 
 In the Resource Map, verify that both public subnets are associated with a Public Route Table. This route table should contain a route to the Internet Gateway (IGW), allowing resources in the public subnets to communicate with the internet.
 
