@@ -1,9 +1,6 @@
 # aws_vpc_configuration
 AWS VPC Configuration With Load Balancer and Auto Scaling Groups
 
-# aws_vpc_configuration
-AWS VPC Configuration With Load Balancer and Auto Scaling Groups
-
 # Architecture Summary
 
 The final architecture consists of:
