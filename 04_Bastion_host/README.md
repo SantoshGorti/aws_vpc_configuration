@@ -10,8 +10,6 @@ A Bastion Host is a publicly accessible EC2 instance used as an entry point to a
 
 This approach improves security by limiting direct external access to internal resources.
 
-![Bastion Host Architecture](images/bastion-host.png)
-
 ## Create a Bastion Host
 
 Navigate to **EC2 Console → Instances**.
@@ -66,8 +64,6 @@ Verify that the key file is available on the Bastion Host and update its permiss
 ```bash
 chmod 400 keypair.pem
 ```
-
-![Copy Key to Bastion Host](images/copy-key.png)
 
 ## Connect to Application Servers
 

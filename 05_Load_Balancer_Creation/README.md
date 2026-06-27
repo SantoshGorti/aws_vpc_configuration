@@ -54,7 +54,6 @@ Under **Listeners and Routing**, configure the listener as **HTTP:80**.
 
 The listener accepts incoming client requests and forwards them to the configured Target Group.
 
-![Listeners and Routing](images/listeners-routing.png)
 
 ## Create a Target Group
 
